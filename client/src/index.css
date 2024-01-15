@@ -1,0 +1,11 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#counters {
+  margin: 10px;
+}
+
+#increase-counter {
+  margin: 10px;
+}

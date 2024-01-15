@@ -1,0 +1,93 @@
+/* Counter.css */
+
+.counter-container {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  padding: 20px;
+  box-shadow: 0px 0px 50px 10px rgb(241, 241, 241);
+  border-radius: 6px;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.counter-title {
+  color: #333;
+}
+
+.user-info {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+span {
+  color: #007bff;
+}
+
+.counters-list {
+  margin-top: 20px;
+  height: 250px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.counter-item {
+  margin: 5px 0;
+  padding: 8px;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+}
+
+.pagination {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pagination-button {
+  padding: 8px 15px;
+  margin: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.pagination-button:disabled {
+  cursor: not-allowed;
+}
+
+.logout-button {
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: transparent;
+  color: grey;
+  border: grey solid 0.1px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.logout-button:hover {
+  background-color: whitesmoke;
+}
+
+.increase-button {
+  background-color: #28a745;
+  color: #fff;
+  border: 1px solid #218838;
+  border-radius: 4px;
+}
+
+.increase-button:hover {
+  background-color: #218838;
+}
